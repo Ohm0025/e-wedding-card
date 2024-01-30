@@ -1,5 +1,6 @@
 import EventCard from "./EventCard";
 import iconCalendar from "../assets/calendar-todo-fill.svg";
+import MapDestination from "./MapDestination";
 
 type Props = {};
 
@@ -33,6 +34,9 @@ const Box4 = (props: Props) => {
           detail2={detail1_2}
           Element={<button>Add to calendar</button>}
         />
+      </div>
+      <div className="my-[50px]">
+        <MapDestination />
       </div>
     </div>
   );
