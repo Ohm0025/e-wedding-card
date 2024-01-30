@@ -23,6 +23,23 @@ export default class SimpleSlider extends Component<SlideProps> {
       slidesToScroll: 1,
       autoplay: true,
       autoplaySpeed: 5000,
+      responsive: [
+        {
+          breakpoint: 800,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+          },
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          },
+        },
+      ],
+
       nextArrow: <></>,
       prevArrow: <></>,
       appendDots: (
@@ -64,8 +81,8 @@ export default class SimpleSlider extends Component<SlideProps> {
           <Slider {...settings}>
             {slide.map((item: string, index: number) => {
               return (
-                <div className="w-[350px]" key={`carousel-${index}`}>
-                  <img src={item} className="w-[350px] h-[500px]" />
+                <div className="px-5 py-3 override" key={`carousel-${index}`}>
+                  <img src={item} className="w-full h-auto" />
                 </div>
               );
             })}

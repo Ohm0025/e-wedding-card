@@ -17,3 +17,8 @@ li.slick-active > div {
 .slick-track {
   width: 100%;
 }
+
+.override {
+  box-sizing: border-box;
+  width: 300;
+}
