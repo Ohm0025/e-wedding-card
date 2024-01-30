@@ -11,8 +11,10 @@ import Footer from "./component/Footer";
 
 function App() {
   return (
-    <div className="min-h-[100vh] w-full relative">
-      <Box0 />
+    <div className="min-h-[100vh] min-w-[325px] w-full flex flex-col items-center">
+      <div className="relative">
+        <Box0 />
+      </div>
       <Box1 />
       <Box2 />
       <Box3 slide={arrPhotoCarousel} />

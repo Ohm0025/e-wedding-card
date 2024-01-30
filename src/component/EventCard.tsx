@@ -8,7 +8,7 @@ type Props = {
 
 const EventCard = ({ icon, event, detail1, detail2, Element }: Props) => {
   return (
-    <div className="flex flex-col items-center w-[33%]">
+    <div className="flex flex-col items-center w-full">
       <div>
         <img src={icon} className="block" alt="icon-event" />
       </div>

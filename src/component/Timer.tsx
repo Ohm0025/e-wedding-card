@@ -4,7 +4,7 @@ import { difInMs, formatTime } from "../utility/calDiffTime";
 
 const BoxColon = () => {
   return (
-    <div className="flex flex-col justify-center items-center translate-y-[10px] text-[50px]">
+    <div className="flex flex-col justify-center items-center translate-y-[10px] text-[25px] sm:text-[50px]">
       <div>:</div>
     </div>
   );
@@ -13,7 +13,7 @@ const BoxColon = () => {
 const BoxTime = ({ timeUnit, timeValue }: BoxTimeProps) => {
   return (
     <div className="">
-      <div className="text-[100px]">{timeValue}</div>
+      <div className="text-[50px] sm:text-[100px]">{timeValue}</div>
       <div className="leading-3">{timeUnit}</div>
     </div>
   );
@@ -34,7 +34,7 @@ const Timer = () => {
   const timeObj = formatTime(ms);
 
   return (
-    <div className="flex justify-around items-center w-[80%] min-w-[250px] mx-auto">
+    <div className="flex justify-around items-center w-[80%] min-w-[250px] mx-auto gap-4">
       <BoxTime timeUnit={"Days"} timeValue={timeObj.day} />
       <BoxColon />
       <BoxTime timeUnit={"Hours"} timeValue={timeObj.hr} />

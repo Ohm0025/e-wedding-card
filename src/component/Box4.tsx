@@ -10,12 +10,12 @@ const detail1_2 = "เวลา 11:30 น. ฉลองมงคลสมรส"
 const Box4 = () => {
   console.log(iconCalendar);
   return (
-    <div className="min-h-[100vh] bg-[white] py-8">
+    <div className="min-h-[100vh] bg-[white] py-8 w-full">
       <div className="flex flex-col px-4">
         <div className="text-center tracking-wider mb-5 text-[#A78C7B] text-[30px]">
           EVENT ATTRACTIONS
         </div>
-        <div className="flex items-start justify-between">
+        <div className="flex flex-col items-center gap-4 sm:gap-0 sm:flex-row sm:items-start sm:justify-between">
           <EventCard
             icon={iconCalendar}
             event="WHEN"

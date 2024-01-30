@@ -14,6 +14,8 @@ export default class Fade extends Component<SlideProps> {
       autoplaySpeed: 1500,
       slidesToShow: 1,
       slidesToScroll: 1,
+      nextArrow: <></>,
+      prevArrow: <></>,
     };
     return (
       <div className="w-[]]">
@@ -21,7 +23,10 @@ export default class Fade extends Component<SlideProps> {
           {slide.map((item: string, index: number) => {
             return (
               <div key={`photo-slide-${index}`}>
-                <img src={item} className="w-full h-[640px]" />
+                <img
+                  src={item}
+                  className="w-full h-auto max-h-[640px] sm:h-[640px]"
+                />
               </div>
             );
           })}
