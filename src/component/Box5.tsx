@@ -1,5 +1,6 @@
 import envelope from "../assets/envelope.svg";
 import qrCode from "../assets/Screenshot 2567-01-30 at 16.54.43.png";
+import CommentFB from "./CommentFB";
 
 const Box5 = () => {
   return (
@@ -30,6 +31,8 @@ const Box5 = () => {
           </div>
         </div>
       </div>
+
+      <CommentFB />
     </div>
   );
 };
