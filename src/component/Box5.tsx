@@ -1,10 +1,7 @@
-import React from "react";
 import envelope from "../assets/envelope.svg";
 import qrCode from "../assets/Screenshot 2567-01-30 at 16.54.43.png";
 
-type Props = {};
-
-const Box5 = (props: Props) => {
+const Box5 = () => {
   return (
     <div className="bg-[white] min-h-[100vh]">
       <div className="flex justify-center items-center mb-5">

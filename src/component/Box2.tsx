@@ -1,8 +1,4 @@
-import React from "react";
-
-type Props = {};
-
-const Box2 = (props: Props) => {
+const Box2 = () => {
   return (
     <div className="min-h-[100vh] bg-[url('src/assets/bg-box3.svg')] bg-no-repeat bg-cover bg-center w-full pt-8 mx-auto">
       <div className="flex flex-col items-center justify-center">

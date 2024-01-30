@@ -1,9 +1,6 @@
-import React from "react";
 import Timer from "./Timer";
 
-type Props = {};
-
-const Box1 = (props: Props) => {
+const Box1 = () => {
   return (
     <div className="min-h-[100vh] mx-auto flex flex-col items-center justify-center bg-[transparent]">
       <div className="text-center text-[#fa975a] translate-y-[40%] w-full">

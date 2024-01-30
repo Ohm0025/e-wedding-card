@@ -1,8 +1,6 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { BoxTimeProps } from "../interface/props";
 import { difInMs, formatTime } from "../utility/calDiffTime";
-
-type Props = {};
 
 const BoxColon = () => {
   return (
@@ -21,7 +19,7 @@ const BoxTime = ({ timeUnit, timeValue }: BoxTimeProps) => {
   );
 };
 
-const Timer = (props: Props) => {
+const Timer = () => {
   const [ms, setMs] = useState<number>(difInMs());
 
   useEffect(() => {
