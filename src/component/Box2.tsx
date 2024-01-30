@@ -1,11 +1,11 @@
 import lineVector from "../assets/line.svg";
 import picProgram from "../assets/Screenshot 2567-01-30 at 08.24.03.png";
-import bgSvg from "../assets/bg-box3.svg";
+// import bgSvg from "../assets/bg-box3.svg";
 
 const Box2 = () => {
   return (
     <div
-      className={`min-h-[100vh] bg-[url(${bgSvg})] bg-no-repeat bg-cover bg-center w-full pt-8 mx-auto`}>
+      className={`min-h-[100vh] bg-[url('/Users/apple/Desktop/kaio_practise/projectHandOn/e-wedding-card/src/assets/bg-box3.svg')] bg-no-repeat bg-cover bg-center w-full pt-8 mx-auto`}>
       <div className="flex flex-col items-center justify-center">
         <div className="text-[30px] tracking-wide text-center">
           INVITE YOU TO CELEBRATE OUR MARRIAGE

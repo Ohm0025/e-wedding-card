@@ -8,7 +8,7 @@ import {
 import Slider from "react-slick";
 import { SlideProps } from "../interface/props";
 import PhotoSlide from "./PhotoSlide";
-import bgSvg from "../assets/bg-box4.svg";
+//import bgSvg from "../assets/bg-box4.svg";
 import { arrPhotoSlide } from "../utility/arrayPhoto";
 
 export default class SimpleSlider extends Component<SlideProps> {
@@ -77,7 +77,7 @@ export default class SimpleSlider extends Component<SlideProps> {
 
     return (
       <div
-        className={`w-full bg-[url(${bgSvg})] bg-no-repeat bg-cover bg-center min-h-[100vh] flex flex-col justify-center items-center`}>
+        className={`w-full bg-[url('/Users/apple/Desktop/kaio_practise/projectHandOn/e-wedding-card/src/assets/bg-box4.svg')] bg-no-repeat bg-cover bg-center min-h-[100vh] flex flex-col justify-center items-center`}>
         <div className="w-full mx-auto">
           <Slider {...settings}>
             {slide.map((item: string, index: number) => {
