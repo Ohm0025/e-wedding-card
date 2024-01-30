@@ -6,10 +6,9 @@ import {
   ReactPortal,
 } from "react";
 import Slider from "react-slick";
-
-interface SlideProps {
-  slide: string[];
-}
+import { SlideProps } from "../interface/props";
+import PhotoSlide from "./PhotoSlide";
+import { arrPhotoSlide } from "../utility/arrayPhoto";
 
 export default class SimpleSlider extends Component<SlideProps> {
   render() {
@@ -22,7 +21,7 @@ export default class SimpleSlider extends Component<SlideProps> {
       slidesToShow: 3,
       slidesToScroll: 1,
       autoplay: true,
-      autoplaySpeed: 5000,
+      autoplaySpeed: 2500,
       responsive: [
         {
           breakpoint: 800,
@@ -76,19 +75,22 @@ export default class SimpleSlider extends Component<SlideProps> {
     };
 
     return (
-      <div className="w-full bg-[url('src/assets/bg-box3.svg')] bg-no-repeat bg-cover bg-center min-h-[100vh] flex flex-col justify-center items-center">
+      <div className="w-full bg-[url('src/assets/bg-box4.svg')] bg-no-repeat bg-cover bg-center min-h-[100vh] flex flex-col justify-center items-center">
         <div className="w-full mx-auto">
           <Slider {...settings}>
             {slide.map((item: string, index: number) => {
               return (
                 <div className="px-5 py-3 override" key={`carousel-${index}`}>
-                  <img src={item} className="w-full h-auto" />
+                  <img src={item} className="w-full h-auto rounded-md" />
                 </div>
               );
             })}
           </Slider>
         </div>
-        <div className="mt-[40px] w-full text-center">#imnestThemoment</div>
+        <div className="mt-[40px] w-full text-center">
+          <div className="mb-[40px] tracking-wider">#imnestThemoment</div>
+          <PhotoSlide slide={arrPhotoSlide} />
+        </div>
       </div>
     );
   }

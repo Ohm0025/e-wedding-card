@@ -3,4 +3,8 @@ interface BoxTimeProps {
   timeValue: string;
 }
 
-export type { BoxTimeProps };
+interface SlideProps {
+  slide: string[];
+}
+
+export type { BoxTimeProps, SlideProps };

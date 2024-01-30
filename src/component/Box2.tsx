@@ -4,7 +4,7 @@ type Props = {};
 
 const Box2 = (props: Props) => {
   return (
-    <div className="min-h-[100vh] bg-[white] w-full pt-8 mx-auto">
+    <div className="min-h-[100vh] bg-[url('src/assets/bg-box3.svg')] bg-no-repeat bg-cover bg-center w-full pt-8 mx-auto">
       <div className="flex flex-col items-center justify-center">
         <div className="text-[30px] tracking-wide text-center">
           INVITE YOU TO CELEBRATE OUR MARRIAGE

@@ -5,7 +5,7 @@ export default {
     extend: {
       backgroundImage: {
         box1Bg:
-          'url("https://cdn.pixabay.com/photo/2014/09/13/04/59/couple-443600_1280.jpg")',
+          'url("https://cdn.pixabay.com/photo/2022/11/22/02/29/beach-7608602_1280.jpg")',
       },
     },
     colors: {
