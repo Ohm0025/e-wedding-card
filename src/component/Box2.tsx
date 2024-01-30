@@ -12,7 +12,7 @@ const Box2 = () => {
         </div>
         <div className="text-[20px] flex items-center justify-center gap-4 w-full">
           <div className="w-[100px]">
-            <img src="src/assets/line.svg" alt="" />
+            <img src={lineVector} alt="line-svg" />
           </div>
           <div className="text-[14px] sm:text-[20px] text-[rgba(167,140,123,1)]">
             {"06 APRIL 2024"}
