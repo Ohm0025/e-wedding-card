@@ -7,6 +7,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Box4 from "./component/Box4";
 import Box5 from "./component/Box5";
+import Footer from "./component/Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Box3 slide={arrPhotoCarousel} />
       <Box4 />
       <Box5 />
+      <Footer />
     </div>
   );
 }

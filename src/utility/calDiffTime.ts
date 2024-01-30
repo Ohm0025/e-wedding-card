@@ -1,5 +1,5 @@
 const difInMs = () => {
-  const targetDate = new Date("06-06-2024");
+  const targetDate = new Date("April 06, 2024 11:30:00");
   const nowDate = new Date();
 
   return targetDate.getTime() - nowDate.getTime();

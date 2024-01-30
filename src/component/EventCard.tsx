@@ -8,15 +8,15 @@ type Props = {
 
 const EventCard = ({ icon, event, detail1, detail2, Element }: Props) => {
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center w-[33%]">
       <div>
         <img src={icon} className="block" alt="icon-event" />
       </div>
-      <div className="">
-        <div className="text-center my-3">{event}</div>
-        <div className="flex flex-col items-center my-3">
-          <span>{detail1}</span>
-          <span>{detail2}</span>
+      <div className="text-[#A78C7B]">
+        <div className="text-center my-3 tracking-wide">{event}</div>
+        <div className="flex flex-col items-center my-3 tracking-wide">
+          <span className="text-center">{detail1}</span>
+          <span className="text-center">{detail2}</span>
         </div>
       </div>
       <div>{Element}</div>

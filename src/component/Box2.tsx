@@ -9,11 +9,19 @@ const Box2 = () => {
           <div className="w-[100px]">
             <img src="src/assets/line.svg" alt="" />
           </div>
-          <div className="">{"08 MAY 2022"}</div>
+          <div className="text-[20px] text-[rgba(167,140,123,1)]">
+            {"06 APRIL 2024"}
+          </div>
+
           <div className="w-[100px]">
             <img src="src/assets/line.svg" alt="" />
           </div>
         </div>
+      </div>
+      <div className="flex flex-col items-center justify-center gap-5 text-[36px]">
+        <span>Pansawalee Wiriyaattasombat</span>
+        <span>And</span>
+        <span>Sikharin Janthon</span>
       </div>
       <div className="mx-auto flex justify-center gap-10 items-center">
         <div className="w-[500px]">
