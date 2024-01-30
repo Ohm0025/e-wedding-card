@@ -10,7 +10,7 @@ const CommentFB = () => {
       <div
         className="fb-comments"
         data-href="https://ohm0025.github.io/e-wedding-card/"
-        data-width="550"
+        data-width="320"
         data-numposts="5"></div>
     </div>
   );
