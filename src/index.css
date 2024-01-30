@@ -7,3 +7,13 @@
 body {
   font-family: "Playfair Display", serif;
 }
+.slick-dots {
+  bottom: 0;
+}
+li.slick-active > div {
+  background-color: black !important;
+}
+
+.slick-track {
+  width: 100%;
+}
