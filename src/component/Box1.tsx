@@ -5,7 +5,7 @@ type Props = {};
 
 const Box1 = (props: Props) => {
   return (
-    <div className="min-h-[100vh] bg-box1Bg bg-cover bg-center bg-origin-border flex flex-col items-center justify-center">
+    <div className="min-h-[100vh] flex flex-col items-center justify-center bg-[transparent]">
       <div className="text-center text-[#fa975a] translate-y-[40%] w-full">
         <div>
           <h1 className="font-[800] text-[72px] tracking-wider">MARRIAGE</h1>
