@@ -18,7 +18,7 @@ export default class Fade extends Component<SlideProps> {
       prevArrow: <></>,
     };
     return (
-      <div className="xl:max-w-[1500px] xl:mx-auto xl:rounded-md xl:overflow-hidden">
+      <div className="xl:max-w-[1000px] xl:mx-auto xl:rounded-md xl:overflow-hidden">
         <Slider {...settings}>
           {slide.map((item: string, index: number) => {
             return (

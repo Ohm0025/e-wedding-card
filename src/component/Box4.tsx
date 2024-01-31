@@ -58,9 +58,6 @@ const Box4 = () => {
                 <div className="flex justify-center mb-4">
                   <ShadeTheme />
                 </div>
-                <div className="text-primary text-center sm:text-[20px]">
-                  NO DRESS CODE BUT BE THE BEST OF YOU
-                </div>
               </div>
             }
           />

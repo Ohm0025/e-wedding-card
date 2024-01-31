@@ -2,7 +2,7 @@ import line2 from "../assets/line2.svg";
 
 const TimeLine = () => {
   return (
-    <div>
+    <div className="hidden sm:block">
       <img src={line2} alt="" />
       <img src={line2} alt="" />
       <img src={line2} alt="" />

@@ -30,3 +30,8 @@ li.slick-active > div {
   display: flex;
   border-radius: 50%;
 }
+
+.main-char {
+  -webkit-text-stroke: 0.5px rgb(0, 0, 0);
+  color: #f7e7ce;
+}

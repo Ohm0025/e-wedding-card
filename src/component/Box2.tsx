@@ -16,7 +16,7 @@ const Box2 = () => {
           <div className="w-[100px]">
             <img src={lineVector} alt="line-svg" />
           </div>
-          <div className="text-[14px] sm:text-[20px] text-primary">
+          <div className="text-[14px] text-center sm:text-[20px] text-primary">
             {"06 APRIL 2024"}
           </div>
 
@@ -25,12 +25,10 @@ const Box2 = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col items-center justify-center gap-5 text-[36px] mb-8 text-primary">
-        <span className="text-center max-sm:text-[26px]">
-          Pansawalee Wiriyaattasombat
-        </span>
-        <span className="text-center max-sm:text-[26px]">And</span>
-        <span className="text-center max-sm:text-[26px]">Sikharin Janthon</span>
+      <div className="flex flex-col items-center justify-center gap-5 text-[22px] sm:text-[36px] mb-8 text-primary">
+        <span className="text-center">Pansawalee Wiriyaattasombat</span>
+        <span className="text-center">And</span>
+        <span className="text-center">Sikharin Janthon</span>
       </div>
       <div className="mx-auto sm:flex justify-center gap-10 items-center">
         <div className="mx-auto sm:mx-0 pt-5 sm:pt-0 w-[300px] sm:pl-6 sm:w-[500px]">

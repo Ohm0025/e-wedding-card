@@ -1,6 +1,6 @@
 const Program = () => {
   return (
-    <div className="flex flex-col items-center gap-[5rem] text-primary text-[24px]">
+    <div className="flex flex-col items-center gap-[5rem] text-primary text-[24px] mt-5 sm:mt-0 mx-auto sm:mx-0">
       <div className="flex flex-col items-center">
         <span className="text-center font-[kanit]">07.09 น.</span>
         <span className="text-center">พิธีเจริญพุทธมนต์เช้า</span>
