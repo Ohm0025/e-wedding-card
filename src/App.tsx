@@ -6,8 +6,8 @@ import { arrPhotoCarousel } from "./utility/arrayPhoto";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Box4 from "./component/Box4";
-import Box5 from "./component/Box5";
 import Footer from "./component/Footer";
+import CommentFB from "./component/CommentFB";
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
       <Box2 />
       <Box3 slide={arrPhotoCarousel} />
       <Box4 />
-      <Box5 />
+      <CommentFB />
       <Footer />
     </div>
   );
