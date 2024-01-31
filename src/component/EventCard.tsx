@@ -12,7 +12,7 @@ const EventCard = ({ icon, event, detail1, detail2, Element }: Props) => {
       <div>
         <img src={icon} className="block" alt="icon-event" />
       </div>
-      <div className="text-[#A78C7B]">
+      <div className="text-primary">
         <div className="text-center my-3 tracking-wide">{event}</div>
         <div className="flex flex-col items-center my-3 tracking-wide">
           <span className="text-center">{detail1}</span>

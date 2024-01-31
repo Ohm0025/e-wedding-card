@@ -2,7 +2,7 @@ import githubLogo from "../assets/githubLogo.svg";
 
 const Footer = () => {
   return (
-    <div className="mt-auto flex items-center justify-around bg-[white] border-t-2 py-4 w-full">
+    <div className="mt-auto flex items-center justify-around bg-secondary border-t-2 py-4 w-full">
       <div className="text-[14px] sm:text-[24px] tracking-wider">
         Online Invitation Card
       </div>

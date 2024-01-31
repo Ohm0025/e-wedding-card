@@ -2,7 +2,7 @@ const CommentFB = () => {
   return (
     <div className="flex flex-col items-center text-[24px] mt-[70px]">
       <div className="flex flex-col text-center">
-        <span className="text-[36px] font-semibold text-[rgba(167,140,123,1)]">
+        <span className="text-[36px] font-semibold text-primary">
           ชวนส่งคำอวยพรให้บ่าวสาว
         </span>
         <span>อยากฝากข้อความถึงบ่าวสาว คอมเม้นท์ได้เลย!</span>

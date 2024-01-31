@@ -90,7 +90,7 @@ export default class SimpleSlider extends Component<SlideProps> {
           </Slider>
         </div>
         <div className="mt-[40px] w-full text-center">
-          <div className="mb-[40px] tracking-wider">#imnestThemoment</div>
+          <div className="mb-[40px] tracking-wider">#SP wedding</div>
           <PhotoSlide slide={arrPhotoSlide} />
         </div>
       </div>

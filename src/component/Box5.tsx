@@ -1,10 +1,10 @@
 import envelope from "../assets/envelope.svg";
-import qrCode from "../assets/Screenshot 2567-01-30 at 16.54.43.png";
+//import qrCode from "../assets/Screenshot 2567-01-30 at 16.54.43.png";
 import CommentFB from "./CommentFB";
 
 const Box5 = () => {
   return (
-    <div className="bg-[white] min-h-[100vh] w-full">
+    <div className="bg-secondary min-h-[100vh] w-full">
       <div className="flex justify-center items-center mb-5">
         <img className="hidden sm:inline" src={envelope} alt="envelope" />
         <div className="text-[22px] sm:text-[25px] tracking-wider">
@@ -26,12 +26,12 @@ const Box5 = () => {
           </div>
         </div>
 
-        <div className="flex flex-col items-center gap-3">
+        {/* <div className="flex flex-col items-center gap-3">
           <img src={qrCode} alt="" />
           <div className="text-[16px] md:text-[22px] md:tracking-wider">
             Prompt pay : นายปรมัตถ์ แถบเงิน
           </div>
-        </div>
+        </div> */}
       </div>
 
       <CommentFB />

@@ -10,9 +10,9 @@ const detail1_2 = "เวลา 11:30 น. ฉลองมงคลสมรส"
 const Box4 = () => {
   console.log(iconCalendar);
   return (
-    <div className="min-h-[100vh] bg-[white] py-8 w-full">
+    <div className="min-h-[100vh] bg-secondary py-8 w-full">
       <div className="flex flex-col px-4">
-        <div className="text-center tracking-wider mb-5 text-[#A78C7B] text-[30px]">
+        <div className="text-center tracking-wider mb-5 text-primary text-[30px]">
           EVENT ATTRACTIONS
         </div>
         <div className="flex flex-col items-center gap-4 sm:gap-0 sm:flex-row sm:items-start sm:justify-between">
@@ -25,7 +25,7 @@ const Box4 = () => {
               <a
                 target="_blank"
                 href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=NzZqZ2d0OWxvY2kyOWx0M2hicGhpamJsY2QgdG95b2htMDAyNUBt&amp;tmsrc=toyohm0025%40gmail.com">
-                <button className="border border-[rgba(167,140,123,1)] px-2 py-1 rounded-sm shadow-md text-[#A78C7B]">
+                <button className="border border-primary px-2 py-1 rounded-sm shadow-md text-primary">
                   {" "}
                   Add to calendar
                 </button>
@@ -41,7 +41,7 @@ const Box4 = () => {
               <a
                 href="https://maps.app.goo.gl/8X9LB9mPTqehPXbU8"
                 target="_blank">
-                <button className="border border-[rgba(167,140,123,1)] px-2 py-1 rounded-sm shadow-md text-[#A78C7B]">
+                <button className="border border-primary px-2 py-1 rounded-sm shadow-md text-primary">
                   Get directions
                 </button>
               </a>
@@ -50,14 +50,14 @@ const Box4 = () => {
           <EventCard
             icon={iconShirt}
             event="THEME"
-            detail1={"#imnestThemoment"}
+            detail1={"#SP wedding"}
             detail2={""}
             Element={
               <div>
                 <div className="flex justify-center my-4">
-                  <div className="w-[20px] h-[20px] circle bg-[#A78C7B]"></div>
+                  <div className="w-[20px] h-[20px] circle bg-primary"></div>
                 </div>
-                <div className="text-[#A78C7B] text-center">
+                <div className="text-primary text-center">
                   NO DRESS CODE BUT BE THE BEST OF YOU
                 </div>
               </div>
