@@ -56,7 +56,7 @@ li.slick-active > div {
 
 .bg0 {
   background: url("/Users/apple/Desktop/kaio_practise/projectHandOn/e-wedding-card/src/assets/cover.jpg")
-    no-repeat left bottom fixed;
+    no-repeat left bottom;
   -moz-background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;

@@ -16,7 +16,7 @@ const BoxTime = ({ timeUnit, timeValue }: BoxTimeProps) => {
       <div className="text-[30px] ssm:text-[50px] sm:text-[100px] main-char">
         {timeValue}
       </div>
-      <div className="leading-3 text-[14px] ssm:text-[16px] unit-time">
+      <div className="leading-3 text-[12px] ssm:text-[16px] unit-time">
         {timeUnit}
       </div>
     </div>
