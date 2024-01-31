@@ -11,10 +11,7 @@ import CommentFB from "./component/CommentFB";
 
 function App() {
   return (
-    <div className="min-h-[100vh] min-w-[325px] w-full flex flex-col items-center">
-      <div className="relative">
-        <Box0 />
-      </div>
+    <div className="min-h-[100vh] min-w-[325px] w-full flex flex-col items-center bg0 top-0 left-0 header">
       <Box1 />
       <Box2 />
       <Box3 slide={arrPhotoCarousel} />
