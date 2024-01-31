@@ -1,5 +1,4 @@
 import lineVector from "../assets/line.svg";
-import picProgram from "../assets/Screenshot 2567-01-30 at 08.24.03.png";
 import picture1 from "../assets/16353.jpg";
 import Program from "./Program";
 import TimeLine from "./TimeLine";

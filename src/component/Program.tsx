@@ -1,8 +1,4 @@
-import React from "react";
-
-type Props = {};
-
-const Program = (props: Props) => {
+const Program = () => {
   return (
     <div className="flex flex-col items-center gap-[5rem] text-primary text-[24px]">
       <div className="flex flex-col items-center">
@@ -25,9 +21,6 @@ const Program = (props: Props) => {
         <span className="text-center font-[kanit]">11.30 น.</span>
         <span className="text-center">รับประทานอาหาร</span>
       </div>
-      {/* - เวลา 7.09 น. พิธีเจริญพุทธมนต์เช้า - เวลา 9.09 น. พิธีขันหมาก/พิธีสู่ขอ
-      - เวลา 9.29 น. พิธีสวมแหวน/พิธีรับไหว้ - เวลา 10.09 น.
-      พิธีหลั่งน้ำพระพุทธมนต์ปราสาทพร - เวลา 11.30 น. รับประทานอาหาร */}
     </div>
   );
 };
