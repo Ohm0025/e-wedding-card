@@ -19,7 +19,7 @@ const Program = () => {
       </div>
       <div className="flex flex-col items-center">
         <span className="text-center font-[kanit]">11.30 น.</span>
-        <span className="text-center">รับประทานอาหาร</span>
+        <span className="text-center">ฉลองมงคลสมรส</span>
       </div>
     </div>
   );

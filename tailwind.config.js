@@ -19,7 +19,7 @@ export default {
     extend: {
       backgroundImage: {
         box1Bg:
-          'url("/Users/apple/Desktop/kaio_practise/projectHandOn/e-wedding-card/src/assets/16353.jpg")',
+          'url("/Users/apple/Desktop/kaio_practise/projectHandOn/e-wedding-card/src/assets/16383.jpg")',
       },
     },
     colors: {

@@ -9,7 +9,7 @@ const Box2 = () => {
     <div
       className={`min-h-[100vh] bg-[url('/Users/apple/Desktop/kaio_practise/projectHandOn/e-wedding-card/src/assets/bg-box3.svg')] bg-no-repeat bg-cover bg-center w-full pt-8 mx-auto`}>
       <div className="flex flex-col items-center justify-center">
-        <div className="text-[26px] sm:text-[30px] tracking-wide text-center text-primary">
+        <div className="text-[26px] sm:text-[30px] tracking-wide text-center text-primary font-[Courgette]">
           INVITE YOU TO CELEBRATE OUR MARRIAGE
         </div>
         <div className="text-[20px] flex items-center justify-center gap-4 w-full">

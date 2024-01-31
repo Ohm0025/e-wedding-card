@@ -16,7 +16,7 @@ const BoxTime = ({ timeUnit, timeValue }: BoxTimeProps) => {
       <div className="text-[25px] ssm:text-[50px] sm:text-[100px] main-char">
         {timeValue}
       </div>
-      <div className="leading-3 text-[12px] ssm:text-[16px] main-char">
+      <div className="leading-3 text-[12px] ssm:text-[16px] main-char font-[800px]">
         {timeUnit}
       </div>
     </div>
@@ -38,7 +38,7 @@ const Timer = () => {
   const timeObj = formatTime(ms);
 
   return (
-    <div className="flex justify-around items-center w-[80%] min-w-[250px] mx-auto gap-4">
+    <div className="flex justify-around items-center w-[80%] min-w-[250px] mx-auto gap-4 text-[Courgette]">
       <BoxTime timeUnit={"Days"} timeValue={timeObj.day} />
       <BoxColon />
       <BoxTime timeUnit={"Hours"} timeValue={timeObj.hr} />
