@@ -7,7 +7,7 @@ const Box5 = () => {
     <div className="bg-secondary min-h-[100vh] w-full">
       <div className="flex justify-center items-center mb-5">
         <img className="hidden sm:inline" src={envelope} alt="envelope" />
-        <div className="text-[22px] sm:text-[25px] tracking-wider">
+        <div className="text-[22px] sm:text-[25px] tracking-wider text-primary">
           ร่วมใส่ซองได้ตรงนี้
         </div>
       </div>

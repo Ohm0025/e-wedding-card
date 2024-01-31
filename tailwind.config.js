@@ -5,7 +5,7 @@ export default {
     extend: {
       backgroundImage: {
         box1Bg:
-          'url("https://cdn.pixabay.com/photo/2022/11/22/02/29/beach-7608602_1280.jpg")',
+          'url("/Users/apple/Desktop/kaio_practise/projectHandOn/e-wedding-card/src/assets/16352.jpg")',
       },
     },
     colors: {
