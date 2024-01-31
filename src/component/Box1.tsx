@@ -3,7 +3,7 @@ import Timer from "./Timer";
 const Box1 = () => {
   return (
     <div className="min-h-[100vh] flex flex-col items-center justify-center bg-[transparent] w-full">
-      <div className="text-center text-primary translate-y-[50%] w-full">
+      <div className="text-center text-primary translate-y-[-20%] w-full">
         <div>
           <h1 className="font-[800px] text-[36px] ssm:text-[45px] sm:text-[80px] tracking-wider main-char font-[Courgette]">
             MARRIAGE
