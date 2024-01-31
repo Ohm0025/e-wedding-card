@@ -1,6 +1,6 @@
 const Box0 = () => {
   return (
-    <div className="bgPos min-h-[100vh] w-full bg-box1Bg sm:bg-cover sm:bg-center bg-origin-border z-[-2] fixed top-0 left-0 header"></div>
+    <div className="min-h-[100vh] w-full z-[-2] bg0 fixed top-0 left-0 header"></div>
   );
 };
 
